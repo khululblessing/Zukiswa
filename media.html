@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zukiswa Ngalimani - Ikhaya Lakho Media House</title>
+        <link rel="stylesheet" href="media.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="component-loader.js"></script>
+        <link rel="stylesheet" href="components.css">
+    </head>
+<body>
+    <main>
+        <div id="header-placeholder"></div>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1 class="hero-title">Zukiswa "Grace" Ngalimani</h1>
+            <p class="hero-subtitle">Media Professional with over 22 years of experience advocating for the Creative, Arts, Media and Community Empowerment</p>
+            <a href="#" class="hero-btn">Learn More</a>
+        </div>
+    </section>
+        <!-- Media Experience Section -->
+        <section class="media-experience">
+            <div class="container">
+                <h2>Media Experience <span class="highlight">22+ Years</span></h2>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <i class="fas fa-microphone"></i>
+                        <h3>Radio Broadcasting</h3>
+                        <ul>
+                            <li>Vuma FM (formerly Khonza Nathi Igagasi Lobunye)</li>
+                            <li>Highway Radio Station</li>
+                            <li>Imbokodo FM</li>
+                            <li>Itheku FM (Current)</li>
+                        </ul>
+                        <button class="cta-button" onclick="openModal('radio')">Book Consultation</button>
+                    </div>
+                    <div class="experience-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Television Production</h3>
+                        <ul>
+                            <li>Ikhaya Lakho TV Founder</li>
+                            <li>Executive Producer</li>
+                            <li>Business Developer for SOTV Global</li>
+                            <li>Contributor to SOTV Africa</li>
+                        </ul>
+                        <button class="cta-button" onclick="openModal('tv')">Book Consultation</button>
+                    </div>
+                    <div class="experience-card">
+                        <i class="fas fa-podcast"></i>
+                        <h3>Podcast Production</h3>
+                        <ul>
+                            <li>The Love Talk Brands for Africa Podcast</li>
+                            <li>Brand Development & Storytelling</li>
+                            <li>Content Creation & Strategy</li>
+                        </ul>
+                        <button class="cta-button" onclick="openModal('podcast')">Book Consultation</button>
+                    </div>
+                    <div class="experience-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Media Concept Development</h3>
+                        <ul>
+                            <li>Creative Direction</li>
+                            <li>Brand Storytelling</li>
+                            <li>Content Strategy</li>
+                            <li>Media Planning</li>
+                        </ul>
+                        <button class="cta-button" onclick="openModal('concept')">Book Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Media Projects Section -->
+        <section class="media-projects">
+            <div class="container">
+                <h2>Featured Media Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="/api/placeholder/400/250" alt="Ikhaya Lakho TV">
+                        <div class="project-content">
+                            <h3>Ikhaya Lakho TV</h3>
+                            <p>A redemptive media and production enterprise committed to serving the community with dignity, integrity, and excellence.</p>
+                            <div class="project-tags">
+                                <span>TV Production</span>
+                                <span>Media Services</span>
+                                <span>Brand Activation</span>
+                            </div>
+                            <button class="cta-button" onclick="openModal('ikhayalakho')">Book Consultation</button>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/api/placeholder/400/250" alt="The Love Talk Brands">
+                        <div class="project-content">
+                            <h3>The Love Talk Brands for Africa</h3>
+                            <p>Podcast celebrating African innovation, culture, and community while amplifying authentic African narratives.</p>
+                            <div class="project-tags">
+                                <span>Podcast</span>
+                                <span>African Brands</span>
+                                <span>Cultural Spotlight</span>
+                            </div>
+                            <button class="cta-button" onclick="openModal('lovetalk')">Book Consultation</button>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/api/placeholder/400/250" alt="Destiny Helpers Court">
+                        <div class="project-content">
+                            <h3>Destiny Helpers Court</h3>
+                            <p>A sanctuary for visionaries and dreamers in the Creative Industry—providing incubation, mentorship and resources.</p>
+                            <div class="project-tags">
+                                <span>Creative Incubation</span>
+                                <span>Mentorship</span>
+                                <span>Industry Development</span>
+                            </div>
+                            <button class="cta-button" onclick="openModal('destiny')">Book Consultation</button>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/api/placeholder/400/250" alt="Media Services">
+                        <div class="project-content">
+                            <h3>Media Event Services</h3>
+                            <p>Red carpet interviews, 360 photo booths, professional photography, event magazines, and live production services.</p>
+                            <div class="project-tags">
+                                <span>Event Coverage</span>
+                                <span>Live Production</span>
+                                <span>Red Carpet</span>
+                            </div>
+                            <button class="cta-button" onclick="openModal('events')">Book Consultation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Media Services Section -->
+        <section class="media-services">
+            <div class="container">
+                <h2>Media Services Offered</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-camera"></i>
+                        <h3>Production</h3>
+                        <ul>
+                            <li>Music Video Production</li>
+                            <li>Sitcoms and Movies</li>
+                            <li>Event Filming</li>
+                            <li>Live Streaming</li>
+                        </ul>
+                        <button class="cta-button" onclick="openModal('production')">Book Consultation</button>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>Brand Activation</h3>
+                        <ul>
+                            <li>Brand Activations</li>
+                            <li>Digital Platform Management</li>
+                            <li>Website Development</li>
+                            <li>Marketing Strategy</li>
+                        </ul>
+                        <button class="cta-button" onclick="openModal('brand')">Book Consultation</button>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-microphone-alt"></i>
+                        <h3>Event Services</h3>
+                        <ul>
+                            <li>Red-Carpet Interviews</li>
+                            <li>360 Photo Booth</li>
+                            <li>Professional Photography</li>
+                            <li>Event Magazine Creation</li>
+                        </ul>
+                        <button class="cta-button" onclick="openModal('event-services')">Book Consultation</button>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Community Development</h3>
+                        <ul>
+                            <li>Skills Development Programs</li>
+                            <li>Community Engagement</li>
+                            <li>Media Training</li>
+                            <li>Mentorship Programs</li>
+                        </ul>
+                        <button class="cta-button" onclick="openModal('community')">Book Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- Modal Popup -->
+    <div id="consultationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">Book a Consultation</h2>
+            <form id="consultationForm">
+                <input type="hidden" id="serviceType" name="serviceType" value="">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Tell us about your project/needs</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Book Consultation</button>
+            </form>
+        </div>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script>
+        // JavaScript for modal functionality
+        const modal = document.getElementById('consultationModal');
+        const serviceTypeField = document.getElementById('serviceType');
+        const modalTitle = document.getElementById('modalTitle');
+        
+        // Open modal with service type
+        function openModal(serviceType) {
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+            
+            // Set the service type in the hidden field
+            serviceTypeField.value = serviceType;
+            
+            // Update modal title based on service type
+            const titles = {
+                'general': 'Book a General Consultation',
+                'radio': 'Book a Radio Broadcasting Consultation',
+                'tv': 'Book a Television Production Consultation',
+                'podcast': 'Book a Podcast Production Consultation',
+                'concept': 'Book a Media Concept Development Consultation',
+                'ikhayalakho': 'Book a Consultation for Ikhaya Lakho TV',
+                'lovetalk': 'Book a Consultation for Love Talk Brands',
+                'destiny': 'Book a Consultation for Destiny Helpers Court',
+                'events': 'Book a Media Event Services Consultation',
+                'production': 'Book a Production Consultation',
+                'brand': 'Book a Brand Activation Consultation',
+                'event-services': 'Book an Event Services Consultation',
+                'community': 'Book a Community Development Consultation'
+            };
+            
+            modalTitle.textContent = titles[serviceType] || 'Book a Consultation';
+        }
+        
+        // Close modal
+        function closeModal() {
+            modal.classList.remove('show');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+        
+        // Close modal if clicked outside content
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                closeModal();
+            }
+        };
+        
+        // Handle form submission
+        document.getElementById('consultationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Form submission logic would go here
+            // For now, just close the modal and show an alert
+            alert('Your consultation request has been submitted! We will contact you shortly.');
+            closeModal();
+        });
+    </script>
+</body>
+</html>

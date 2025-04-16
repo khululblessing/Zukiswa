@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zukiswa Ngalimani - Ikhaya Lakho Media House</title>
+        <link rel="stylesheet" href="ikhaya-lakho.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="component-loader.js"></script>
+        <link rel="stylesheet" href="components.css">
+    </head>
+<body>
+    <div id="header-placeholder"></div>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1 class="hero-title">Zukiswa "Grace" Ngalimani</h1>
+            <p class="hero-subtitle">Media Professional with over 22 years of experience advocating for the Creative, Arts, Media and Community Empowerment</p>
+            <a href="#" class="hero-btn">Learn More</a>
+        </div>
+    </section>
+    <section class="whats-happening-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>What's Happening at Ikhaya Lakho TV</h2>
+                <p class="subtitle">Stay updated with our latest events, projects, and activations</p>
+            </div>
+
+            <div class="events-grid">
+                <!-- Event Card 1 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">APR</span>
+                        </div>
+                        <img src="/api/placeholder/600/400" alt="Online Radio Stations Awards">
+                    </div>
+                    <div class="event-content">
+                        <h3>Online Radio Stations Awards</h3>
+                        <p class="event-location"><i class="icon-location"></i> Durban ICC</p>
+                        <p>Providing extensive media coverage with red carpet interviews and comprehensive content creation for this prestigious event celebrating radio excellence.</p>
+                        <div class="event-tags">
+                            <span>Red Carpet</span>
+                            <span>Media Coverage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">APR</span>
+                        </div>
+                        <img src="/api/placeholder/600/400" alt="Mayine Activation">
+                    </div>
+                    <div class="event-content">
+                        <h3>Mayine Community Activation</h3>
+                        <p class="event-location"><i class="icon-location"></i> Caluza, Pietermaritzburg</p>
+                        <p>Engaging with community members at this special activation event, highlighting local brands and creating authentic community content.</p>
+                        <div class="event-tags">
+                            <span>Community</span>
+                            <span>Brand Activation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Card 3 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-date">
+                            <span class="day">30</span>
+                            <span class="month">APR</span>
+                        </div>
+                        <img src="/api/placeholder/600/400" alt="ACYMWE Awards 2024">
+                    </div>
+                    <div class="event-content">
+                        <h3>ACYMWE Awards 2024</h3>
+                        <p class="event-location"><i class="icon-location"></i> Sandton Convention Center</p>
+                        <p>Providing red carpet interviews and sponsorship promotions at this celebration of African excellence and achievement.</p>
+                        <div class="event-tags">
+                            <span>Awards</span>
+                            <span>Sponsorships</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-showcase">
+                <h3>Our Latest Media Services</h3>
+                <div class="services-container">
+                    <div class="service-item">
+                        <div class="service-icon">📱</div>
+                        <h4>Brand Content Creation</h4>
+                        <p>Customized content aligned with your brand identity, including promotional videos, testimonials, and social media stories.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🎥</div>
+                        <h4>360° Photo Booth</h4>
+                        <p>Create immersive experiences at your events with our state-of-the-art 360° photo booth.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🎙️</div>
+                        <h4>"The Love Talk for Africa" Podcast</h4>
+                        <p>Join host Zukiswa Ngalimani as we spotlight African brands and thought leaders.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="partnership-callout">
+                <div class="callout-content">
+                    <h3>Partner With Us</h3>
+                    <p>Ikhaya Lakho TV actively seeks partnerships with production companies and brands to create authentic African narratives and impactful media content.</p>
+                    <a href="#" class="cta-button" id="openPartnershipModal">Become a Partner</a>
+                </div>
+                <div class="callout-image">
+                    <img src="/api/placeholder/500/300" alt="Partnership Opportunities">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Partnership Modal Popup -->
+    <div id="partnershipModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <center><h2>Become a Partner</h2></center>
+                <center><p>Join forces with Ikhaya Lakho TV to create authentic African narratives and impactful media content</p></center>
+            </div>
+            <div class="modal-body">
+                <form id="partnershipForm">
+                    <div class="form-group">
+                        <label for="companyName">Company/Brand Name</label>
+                        <input type="text" id="companyName" name="companyName" placeholder="Your company or brand name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactPerson">Contact Person</label>
+                        <input type="text" id="contactPerson" name="contactPerson" placeholder="Full name of contact person" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="industry">Industry</label>
+                        <select id="industry" name="industry" required>
+                            <option value="" disabled selected>Select your industry</option>
+                            <option value="Media & Entertainment">Media & Entertainment</option>
+                            <option value="Fashion & Lifestyle">Fashion & Lifestyle</option>
+                            <option value="Food & Beverage">Food & Beverage</option>
+                            <option value="Technology">Technology</option>
+                            <option value="Finance">Finance</option>
+                            <option value="Education">Education</option>
+                            <option value="Tourism & Hospitality">Tourism & Hospitality</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="partnershipType">Partnership Interest</label>
+                        <select id="partnershipType" name="partnershipType" required>
+                            <option value="" disabled selected>What type of partnership are you interested in?</option>
+                            <option value="Media Coverage">Media Coverage</option>
+                            <option value="Content Creation">Content Creation</option>
+                            <option value="Event Collaboration">Event Collaboration</option>
+                            <option value="Brand Activation">Brand Activation</option>
+                            <option value="Sponsorship">Sponsorship</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tell us about your partnership vision</label>
+                        <textarea id="message" name="message" placeholder="Share your ideas, goals, and how we can collaborate..."></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter" checked>
+                        <label for="newsletter">Subscribe to our newsletter for updates on partnership opportunities</label>
+                    </div>
+                    <button type="submit" class="submit-button">Submit Partnership Request</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p>Your information will be kept confidential. Our team will contact you within 48 hours to discuss partnership opportunities.</p>
+            </div>
+        </div>
+        
+    </div>
+    <div id="footer-placeholder"></div>
+
+    <script>
+        // JavaScript for Modal Functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('partnershipModal');
+    const openBtn = document.getElementById('openPartnershipModal');
+    const closeBtn = document.querySelector('.close-modal');
+    const form = document.getElementById('partnershipForm');
+
+    // Open modal when button is clicked
+    openBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+    });
+
+    // Close modal when X is clicked
+    closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Re-enable scrolling
+    });
+
+    // Close modal when clicking outside the modal content
+    window.addEventListener('click', function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+    });
+
+    // Form submission
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Basic form validation
+        const companyName = document.getElementById('companyName').value;
+        const email = document.getElementById('email').value;
+        const industry = document.getElementById('industry').value;
+        
+        if (!companyName || !email || industry === "") {
+            alert('Please fill in all required fields.');
+            return;
+        }
+        
+        // Form submission success message
+        alert('Thank you for your interest in partnering with Ikhaya Lakho TV! Your request has been received, and our team will contact you within 48 hours.');
+        
+        // Reset and close form
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Re-enable scrolling
+        form.reset();
+    });
+});
+    </script>
+</body>
+</html>
