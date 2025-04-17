@@ -161,12 +161,6 @@ body {
     transform: translateY(-3px);
 }
 
-/* WhatsApp specific styling */
-.social-icons a:last-child {
-    background-color: #25D366;
-    color: white;
-}
-
 .social-icons a:last-child:hover {
     background-color: #128C7E;
 }
